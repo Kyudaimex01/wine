@@ -56,14 +56,14 @@
                 confirmButtonText: 'Entrenar',
                 showLoaderOnConfirm: true,
                 preConfirm: (text) => {
-                    return fetch(`http://localhost:3000/api/v1/train`, {
+                    return fetch(`http://classify-child.herokuapp.com/api/v1/train`, {
                         method: 'POST',
                         body: new URLSearchParams({name: name, description: text}),
                         headers: new Headers({
                             'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
                         }),
                     }).then(response => {
-                        if (!response.ok) {
+                        if ($response.statusText != "OK") {
                             throw new Error(response.statusText)
                         }
                         return response.json()
