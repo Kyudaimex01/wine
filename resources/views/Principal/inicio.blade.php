@@ -83,8 +83,8 @@
                     <span class="icon-bar"></span>
                 </button>
                  <a class="logo pull-left">
-                   <img  src="/images/svg/img/pinguino2.jpg" class="img svg-responsive" style= "width: 50px; height: 50px;"></a>
-                <a class="navbar-brand"><span>Niño Mensajero</span></a>
+                   <img  src="/images/svg/img/imagen.jpg" class="img svg-responsive" style= "width: 50px; height: 50px;"></a>
+               
   
              
       </div>

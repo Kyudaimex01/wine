@@ -48,6 +48,12 @@
                                         <img class="card-img-top thum" src='/assets/letter/tecnologia.svg' alt="Card image cap">
                                     @elseif ($letter->area->name == 'Economia')
                                         <img class="card-img-top thum" src='/assets/letter/money.svg' alt="Card image cap">
+                                         @elseif ($letter->area->name == 'Filosofia')
+                                        <img class="card-img-top thum" src='/assets/letter/filosofia.svg' alt="Card image cap">
+                                         @elseif ($letter->area->name == 'Psicologia')
+                                        <img class="card-img-top thum" src='/assets/letter/psicologia.svg' alt="Card image cap">
+                                        @elseif ($letter->area->name == 'Medicina')
+                                        <img class="card-img-top thum" src='/assets/letter/medicina.svg' alt="Card image cap">
                                     @endif
                                     <div class="card-body">
                                         <h5 class="card-title">
