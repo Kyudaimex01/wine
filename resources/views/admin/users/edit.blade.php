@@ -5,7 +5,7 @@
 @section('content')
 
     <div class="title">
-        <h1>Editando suscriptor</h1>
+        <h1>Editando usuario</h1>
     </div>
 
     <div class="card mt-2">

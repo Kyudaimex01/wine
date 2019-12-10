@@ -50,8 +50,7 @@ class WriterController extends Controller
         $user->password = bcrypt($request->password);
         $user->save();
         $user->assignRole('writer');
-        $user->givePermissionTo('backend access');
-
+        
         return redirect(route('admin.writers.index'))->with([ 'message' => 'Curso creado exitosamente!', 'alert-type' => 'success' ]);
     }
 

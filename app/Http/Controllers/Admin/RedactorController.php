@@ -50,8 +50,7 @@ class RedactorController extends Controller
         $user->save();
 
         $user->assignRole('redactor');
-        $user->givePermissionTo('backend access');
-
+        
         return redirect(route('admin.redactors.index'))->with([ 'message' => 'Redactor creado exitosamente!', 'alert-type' => 'success' ]);
     }
 

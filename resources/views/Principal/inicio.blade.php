@@ -267,8 +267,8 @@
 </div>
   <div class="container">
     <div class="row">
-        <div class="col-md-4 col-md-offset-1">
-          <div class="wow">
+        <div class="col-md-4">
+          <div class="">
             <div class="text-center">
             <h4><b>Mision</b></h4>
             <p>Satisfacer totalmente las necesidades de mensajería y gestiones de nuestros Clientes, a través de la excelencia en el servicio y el sentido de compromiso con nuestra familia y nuestra Bolivia.</p>
@@ -276,8 +276,8 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-md-offset-2">
-          <div class="wow">
+        <div class="col-md-4">
+          <div class="">
             <div class="text-center">
             <h4><b>Vision</b></h4>
             <p>Desarrollar Servicios diferenciales, exclusivos y personalizados para llevar a cabo una labor 100% eficiente en el menor lapso de tiempo y costo. Formar equipos de trabajo que conozcan y se comprometan con nuestros clientes para llevar a cabo el propósito de nuestra empresa.</p>

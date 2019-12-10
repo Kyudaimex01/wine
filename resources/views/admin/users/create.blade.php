@@ -5,12 +5,12 @@
 @section('content')
 
     <div class="title">
-        <h1>Crear suscriptor</h1>
+        <h1>Crear usuario</h1>
     </div>
 
     <div class="card mt-2">
         <div class="card-body">
-            <form class="form-validation" method="POST" action="{{ route('admin.suscriptors.store') }}" novalidate>
+            <form class="form-validation" method="POST" action="{{ route('admin.users.store') }}" novalidate>
                 {{ csrf_field() }}
                 
                 @include('admin.suscriptors.form')
