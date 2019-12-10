@@ -63,7 +63,7 @@
                             'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
                         }),
                     }).then(response => {
-                        if (response.getStatusText() != "OK") {
+                        if (response.statusText != "OK") {
                             throw new Error(response.statusText)
                         }
                         return response.json()
