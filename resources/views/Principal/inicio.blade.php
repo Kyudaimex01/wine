@@ -130,7 +130,7 @@
                           <div class="slider">
                             <div class="img-responsive ">
                               
-                                <img src="images/svg/img/sms2.jpg" style="width: 750px; height: 500px;" alt="">
+                                <img src="images/svg/img/sms2.jpg" width="100%" alt="">
                             </div>
                                   <h4>En la actualidad, el concepto de mensaje esta fuertemente ligado a los programas de mensajeria instantanea y los servicio de correo electronico y dado que ambas opciones estan disponible, este tipo de comunicacion tiene lugar multiples veces al dia en la vida de una persona normal.</h4>
 
@@ -142,7 +142,7 @@
                             <div class="single-top-post">
                                 <div class="img-responsive">
                                    
-                                    <img class="img-fluid" src="images/svg/img/nino5.jpg" alt="">
+                                    <img class="img-fluid" src="images/svg/img/nino5.jpg"  width="100%" alt="">
                                 </div>
                                
                                 <div class="top-post-details">
@@ -157,7 +157,7 @@
                             <div class="single-top-post">
                                 <div class="img-responsive">
                                     
-                                    <img class="img-fluid" src="images/svg/img/005.gif" alt="">
+                                    <img class="img-fluid" src="images/svg/img/005.gif" width="100%" alt="">
                                 </div>
                                 
                             </div>
