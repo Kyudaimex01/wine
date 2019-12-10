@@ -1,0 +1,26 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import "variables";
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font awesome
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+// Select2
+// @import '~select2/dist/css/select2';
+@import '~select2/src/scss/core';
+
+// Sweet alert2
+@import '~sweetalert2/src/sweetalert2.scss';
+
+// Toast
+@import "~toastr/toastr.scss";
+
+// Custom Styles
+@import './index.scss';
+//@import './custom.scss'

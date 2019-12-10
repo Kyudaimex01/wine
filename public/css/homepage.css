@@ -1,0 +1,345 @@
+
+/*
+.header {
+    height: 100vh;
+    display: flex;
+     color: #fff;
+}
+
+.content {
+    max-width: 40rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    
+}
+
+.header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header-video video {
+    min-width: 100%;
+    min-height: 100%;
+}
+.header-image {
+   
+    top: 0;
+    left: 200px;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header-content image {
+    width: 100px;
+    height: 100px;
+  margin-bottom: 100px;
+}
+
+.header-content h1 {
+  
+   cursor: default;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+  margin: auto;
+  display: block;
+  
+  -webkit-animation: bounce .3s ease infinite alternate;
+  
+  font-family: 'Arial', cursive;
+  font-size: 80px;
+  color: #593511;
+  text-align: center;
+  line-height: 100px;
+  text-shadow: 0 1px 0 #CCC,
+               0 2px 0 #CCC,
+               0 3px 0 #CCC,
+               0 4px 0 #CCC,
+               0 5px 0 #CCC,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
+}
+
+/* ANIMATION */
+/*
+@-webkit-keyframes bounce {
+  100% {
+    top: -30px;
+    
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 #CCC,
+                 0 7px 0 #CCC,
+                 0 8px 0 #CCC,
+                 0 9px 0 #CCC,
+                 0 30px 30px rgba(0, 0, 0, .3);
+  }
+}
+
+
+
+.header-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #303952;
+    z-index: 1;
+    opacity: .65;
+}
+
+.header-content {
+    z-index: 2;
+}
+
+
+.btn-home {
+       background: #187da0;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+
+}
+
+
+
+@media (max-width: 960px) {
+    .content {
+        padding: 0 8rem 0 3rem;
+    }
+#calendar {
+            font-family:Arial;
+            font-size:12px;
+             position: absolute;
+  top: 120px;
+  right: 50px;
+  width: 200px;
+  height: 200px;
+
+        }
+        #calendar caption {
+            
+            padding:5px 10px;
+            background-color:#003366;
+            color:#fff;
+            font-weight:bold;
+            font-size:medium;
+            
+            left: 8000%;
+            
+
+        }
+        #calendar caption div:nth-child(1) {float:left; left: 8000px;}
+        #calendar caption div:nth-child(2) {float:right; left: 8000px;}
+        #calendar caption div:nth-child(2) a {cursor:pointer; left: 8000px;}
+
+        #calendar th {
+            background-color:#006699;
+            color:#fff;
+           left: 2000px;
+
+        }
+        #calendar td {
+            text-align:right;
+            padding:2px 5px;
+            background-color:silver;
+            left: 8000px;
+
+        }
+        #calendar .hoy {
+            background-color:red;
+
+        }*/
+        .logo {
+  padding: 10px 10px 0 10px;
+}
+     
+.header-image {
+   
+    top: 0;
+    left: 200px;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header-content image {
+    width: 100px;
+    height: 100px;
+  margin-bottom: 100px;
+}
+        
+        .header-video {
+    position: absolute;
+    top: 16.9%;
+    left: 14%;
+    width: 72%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.header-video video {
+    min-width: 60%;
+    min-height: 60%;
+}
+
+.main {
+  position: absolute;
+  width: 630px;
+  height: 320px;
+  top: 65%;
+  left: 85%;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+  transition: all 0.195s ease;
+  transform-style: preserve-3d;
+}
+.main.is-rotated-left {
+  transform: translate(-50%, -50%) rotateY(-4deg);
+}
+.main.is-rotated-right {
+  transform: translate(-50%, -50%) rotateY(4deg);
+}
+.main .sideb,
+.main .right-wrapper {
+  background-color: maroon;
+  width: 50%;
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main .header {
+  padding: 15px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.main .header i {
+  padding: 0 5px;
+  cursor: pointer;
+}
+.main .header span {
+  display: inline-block;
+  margin: 0 3px;
+  font-weight: 500;
+}
+.main .right-wrapper {
+  background-color: #297A89;
+  color: white;
+  transform-origin: left center;
+  transform: rotateY(110deg);
+  transition: all 0.5s;
+}
+.main .right-wrapper.is-active {
+  transform: rotateY(0deg);
+}
+.main .right-wrapper .header {
+  text-align: left;
+  justify-content: center;
+}
+.main .right-wrapper .day {
+  font-size: 12em;
+  text-indent: -12px;
+  display: block;
+}
+.main .right-wrapper .month {
+  font-size: 4.0em;
+}
+.main .sideb .showDate {
+  color: white;
+  text-align: right;
+  width: 100%;
+}
+.main .sideb .showDate i {
+  cursor: pointer;
+  background: #297A89;
+  border-radius: 4px;
+  padding: 8px 12px;
+  transform: scale(1);
+  transition: all 0.3s;
+}
+.main .sideb .showDate i.is-active {
+  transform: scale(-1);
+}
+.main .sideb table {
+  text-align: center;
+ 
+  width: 90%;
+  margin: 30px auto 0;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.main .sideb table tbody:before {
+  content: "-";
+  display: block;
+  line-height: 0.75em;
+  color: transparent;
+}
+.main .sideb table th {
+  color: #297A89;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.main .sideb table td {
+  padding: 11px 5px;
+  color: #FBFCFC;
+  font-size: 0.75em;
+  transition: all 0.3s;
+  position: relative;
+}
+.main .sideb table td::before {
+  content: "";
+  display: none;
+  width: 50%;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -8px);
+  background-color: #FBFCFC;
+}
+.main .sideb table td.currentDay::before {
+  display: block;
+}
+.main .sideb table td.selectable {
+  color: #297A89;
+  cursor: pointer;
+}
+.main .sideb table td.selectable:hover {
+  background: #297A89;
+  color: white;
+}
+.main .sideb table td.between {
+  background-color: #FBFCFC;
+  color: white;
+}
+.main .sideb table td.active, .main .sideb table td.hover {
+  background: #FBFCFC;
+  color: white;
+}
+
+
+}
