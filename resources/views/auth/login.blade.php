@@ -22,7 +22,7 @@
     </div>
     <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
         <label class="text-normal text-dark">Contraseña</label>
-        <input type="password" class="form-control" name="password" placeholder="Password" required>
+        <input type="text" class="form-control" name="password" placeholder="Password" required>
         @if ($errors->has('password'))
             <div class="invalid-feedback {{ $errors->has('password')? 'd-block' : '' }}">
                 <strong>{{ $errors->first('password') }}</strong>

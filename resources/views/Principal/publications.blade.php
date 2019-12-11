@@ -35,8 +35,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand"><span>Niño Mensajero</span></a>
-     </div>
+               <a class="logo pull-left">
+                   <img  src="/images/svg/img/imagen1.jpg" class="img svg-responsive" style= "width: 50px; height: 50px;"></a>
 
       <div class="navbar-collapse collapse" id="menu" >
        
