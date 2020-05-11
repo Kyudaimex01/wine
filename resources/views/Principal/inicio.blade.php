@@ -83,7 +83,7 @@
                     <span class="icon-bar"></span>
                 </button>
                  <a class="logo pull-left">
-                   <img  src="/images/svg/img/imagen.jpg" class="img svg-responsive" style= "width: 50px; height: 50px;"></a>
+                   <img  src="/images/svg/img/imagen1.jpg" class="img svg-responsive" style= "width: 50px; height: 50px;"></a>
                
   
              

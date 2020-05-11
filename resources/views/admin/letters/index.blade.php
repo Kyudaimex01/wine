@@ -135,7 +135,7 @@
                             <div id="content_letter">
                                 
                             </div>
-                            imagenes
+                            
                         </div>
                         <div class="card-footer bg-transparent border-success">
                             
