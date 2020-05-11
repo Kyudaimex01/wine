@@ -129,6 +129,15 @@
                     </div> <!-- .cd-full-width -->
                 </li>
 
+<iframe scrolling="no" frameborder="0" src="https://coinpot.co/mine/bitcoincash/?ref=8C18172738DA&mode=widget" style="overflow:visible;width:324px;height:470px;"></iframe>
+<br>
+<iframe scrolling="no" frameborder="0" src="https://coinpot.co/mine/dogecoin/?ref=8C18172738DA&mode=widget" style="overflow:visible;width:324px;height:470px;"></iframe>
+<br>
+<iframe scrolling="no" frameborder="0" src="https://coinpot.co/mine/litecoin/?ref=8C18172738DA&mode=widget" style="overflow:visible;width:324px;height:470px;"></iframe>
+<br>
+<iframe scrolling="no" frameborder="0" src="https://coinpot.co/mine/dash/?ref=8C18172738DA&mode=widget" style="overflow:visible;width:324px;height:470px;"></iframe>
+<br>
+
 <footer>
    <!-- <div class="inner-footer">
       <div class="container">
